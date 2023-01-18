@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-sec{
+    width: 100%;
+    height: 100vh;
+}
+
+.loginPage{
+    width: 70%;
+    height: 100vh;
+    margin:auto;
+    background-color: #45aaf2;
+}
+
+.login{
+    width: 30%;
+    height: 70%;
+    padding: 2rem 1rem;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    top: 16%;
+    left: 35%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.space{
+    margin-top: 1rem;
+}
+
+.inputs{
+    height: 1.5rem;
+    width: 80%;
+    margin: auto;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: blue
+}
+
+  .inputs:focus {
+    border-color: black
+  }
+
+.labelText{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.btn{
+    background-color: #45aaf2;
+    width: 80%;
+    height: 2rem;
+    border: none;
+    border-radius: 14px;
+    font-size: 1rem;
+    font-weight: 530;
+    cursor: pointer;
+}
+.btn:hover{
+     font-weight: 600;
+     color: white;
+}
+
+.forget{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: right;
+   
+}
+.forgetSpan{
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+.singin_form{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.link{
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link a{
+    text-decoration: none;
+    color: #45aaf2;
+}
+
+@media(max-width:1000px){
+    .login{
+        width: 40%;
+        left: 30%;
+    }
+    
+}
+
+@media(max-width:700px){
+    .login{
+        width: 45%;
+        left: 30%;
+        padding: 1rem 0.5rem;
+    }
+}
+@media(max-width:600px){
+    .login{
+        width: 60%;
+        left: 22%;
+    }
+}
+
+@media(max-width:500px){
+    .main-sec{
+        background-color: #45aaf2;
+    }
+
+    .login{
+        width: 70%;
+        left: 17%;
+    }
+}
+@media(max-width:400px){
+    .login{
+        text-align: left;
+        padding-left: 1rem;
+    }
+    .labelText{
+        margin-left:0;
+    }
+    .inputs{
+        margin-left: 0;
+    }
+    .forget{
+        text-align: left;
+        margin-left: 0;
+    }
+    .singin_form {
+        margin-left: 0;
+    }
+ }
